@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+  
+<body>
+    <header class="header">
+        <button class="header__toggle" aria-label="Toggle navigation">
+            <span class="header__toggle-bar"></span>
+            <span class="header__toggle-bar"></span>
+            <span class="header__toggle-bar"></span>
+        </button>
+    
+        <div class="header__logo">
+            <img src="assets/header__logo--image.svg" alt="Company Logo" class="header__logo--image">
+        </div>
+    
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#home" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#about" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#services" class="header__nav-link">Services</a></li>
+                <li class="header__nav-item"><a href="#contact" class="header__nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <button class="button button--toggle" id="hide-family-btn">Hide Family Models</button>
+        <section class="promo-container">
+            <div class="promo-item">
+                <img src="assets/promo-item__image--compact.svg" alt="Compact Model Image" class="promo-item__image">
+                <h2 class="promo-item__title">Compact Models</h2>
+                <p class="promo-item__description">Economical and stylish</p>
+                <button class="button button--cta">Shop Now</button>
+            </div>
+            <div class="promo-item promo-item--family" id="family-model">
+                <img src="assets/promo-item__image--family.svg" alt="Family Model Image" class="promo-item__image">
+                <h2 class="promo-item__title">Family Models</h2>
+                <p class="promo-item__description">Standard reliable Logo car</p>
+                <button class="button button--cta">Shop Now</button>
+            </div>
+            <div class="promo-item">
+                <img src="assets/promo-item__image--sports.svg" alt="Sports Model Image" class="promo-item__image">
+                <h2 class="promo-item__title">Sports Models</h2>
+                <p class="promo-item__description">Life life fast with Logo</p>
+                <button class="button button--cta">Shop Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
